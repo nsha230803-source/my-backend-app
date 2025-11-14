@@ -1,4 +1,4 @@
-name: CI: build & deploy to Cloud Run
+name: "CI: build & deploy to Cloud Run"
 
 on:
   push:
@@ -43,3 +43,4 @@ jobs:
         run: |
           terraform init
           terraform apply -auto-approve
+
